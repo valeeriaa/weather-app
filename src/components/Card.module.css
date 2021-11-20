@@ -1,0 +1,31 @@
+.card{
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+    display: grid
+    grid-template-columns= repeat(3, 1fr)
+    grid-template-rows= 1fr 2fr
+
+    position= relative;
+}
+.cityName{
+    grid-column: 1 / span 3;
+}
+.closeButton{
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+    font-size: 1.5rem;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0.25rem;
+
+    border-color: transparent;
+    border-width: 2px
+    border-style: solid
+    border-radius: 9999px
+}
